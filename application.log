@@ -1,0 +1,22 @@
+2020-04-13 11:18:26,252  INFO [main] LoginPageTest:44 - ****************************** Starting test cases execution  *****************************************
+2020-04-13 11:18:41,169  INFO [main] LoginPageTest:47 - entering application URL
+2020-04-13 11:18:41,171  WARN [main] LoginPageTest:48 - Hey this just a warning message
+2020-04-13 11:18:41,171 FATAL [main] LoginPageTest:49 - hey this is just fatal error message
+2020-04-13 11:18:41,176 DEBUG [main] LoginPageTest:50 - this is debug message
+2020-04-13 11:18:41,809  INFO [main] LoginPageTest:58 - ****************************** starting test case *****************************************
+2020-04-13 11:18:41,811  INFO [main] LoginPageTest:59 - ****************************** PHPTitleTest *****************************************
+2020-04-13 11:18:41,900  INFO [main] LoginPageTest:62 - ****************************** ending test case *****************************************
+2020-04-13 11:18:41,900  INFO [main] LoginPageTest:63 - ****************************** PHPTitleTest *****************************************
+2020-04-13 11:18:42,100  INFO [main] LoginPageTest:88 - ****************************** Browser is closed *****************************************
+2020-04-13 11:18:42,111  INFO [main] LoginPageTest:44 - ****************************** Starting test cases execution  *****************************************
+2020-04-13 11:18:51,488  INFO [main] LoginPageTest:47 - entering application URL
+2020-04-13 11:18:51,491  WARN [main] LoginPageTest:48 - Hey this just a warning message
+2020-04-13 11:18:51,492 FATAL [main] LoginPageTest:49 - hey this is just fatal error message
+2020-04-13 11:18:51,492 DEBUG [main] LoginPageTest:50 - this is debug message
+2020-04-13 11:18:51,798  INFO [main] LoginPageTest:88 - ****************************** Browser is closed *****************************************
+2020-04-13 11:18:51,803  INFO [main] LoginPageTest:44 - ****************************** Starting test cases execution  *****************************************
+2020-04-13 11:19:01,623  INFO [main] LoginPageTest:47 - entering application URL
+2020-04-13 11:19:01,625  WARN [main] LoginPageTest:48 - Hey this just a warning message
+2020-04-13 11:19:01,625 FATAL [main] LoginPageTest:49 - hey this is just fatal error message
+2020-04-13 11:19:01,626 DEBUG [main] LoginPageTest:50 - this is debug message
+2020-04-13 11:19:08,129  INFO [main] LoginPageTest:88 - ****************************** Browser is closed *****************************************

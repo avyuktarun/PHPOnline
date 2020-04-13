@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PHP Online Application Test Automation Test Suite]">
+  <test name="PHP Online App Test Cases(failed)">
+    <classes>
+      <class name="com.php.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- PHP Online App Test Cases(failed) -->
+</suite> <!-- Failed suite [PHP Online Application Test Automation Test Suite] -->

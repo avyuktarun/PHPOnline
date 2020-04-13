@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PHP Online Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="PHP Online App Test Cases(failed)">
+    <classes>
+      <class name="com.php.qa.testcases.VisaPageTest">
+        <methods>
+          <include name="selectVisaTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="verifyLabelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.VisaPageTest -->
+      <class name="com.php.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- PHP Online App Test Cases(failed) -->
+</suite> <!-- Failed suite [PHP Online Application Test Automation Test Suite] -->

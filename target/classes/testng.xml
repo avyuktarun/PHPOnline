@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHP Online Application Test Automation Test Suite">
+
+	<listeners>
+		<!--  <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" /> -->
+		<!--  <listener class-name="com.qa.ExtentReportListener.TestAllureListener" />-->
+	</listeners>
+
+
+	<test name="PHP Online App Test Cases">
+		<classes>
+			<class name="com.php.qa.testcases.LoginPageTest"></class>
+			<!-- <class name="com.php.qa.testcases.HomePageTest"></class>
+			<class name="com.php.qa.testcases.VisaPageTest"></class>
+			<class name="com.php.qa.testcases.ContactPageTest"></class>-->
+		</classes> 
+	</test>
+</suite>

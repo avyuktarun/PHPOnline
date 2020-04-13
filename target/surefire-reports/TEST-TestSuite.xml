@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.671" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="PHPTestJob"/>
+    <property name="PWD" value="/Users/arunkrishnan/Applications/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/arunkrishnan/.jenkins"/>
+    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/Users/arunkrishnan/apache-maven-3.6.3/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="699da97a8613a2cf"/>
+    <property name="POM_ARTIFACTID" value="PHPTravelsTest"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="D01671F3-5104-4940-BB82-EAFBBB3A789B"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="PHPTravelsTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="arunkrishnan"/>
+    <property name="JAVA_MAIN_CLASS_700" value="Main"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="PHPTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/PHPTestJob/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="TMPDIR" value="/var/folders/3k/23txymnd6qn060n3hqrdkdfh0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/PHPTestJob/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/PHPTestJob/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="arunkrishnan"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/arunkrishnan"/>
+    <property name="POM_GROUPID" value="PHPTravelsAutomation"/>
+    <property name="user.home" value="/Users/arunkrishnan"/>
+    <property name="BUILD_TAG" value="jenkins-PHPTestJob-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="699da97a8613a2cf"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/arunkrishnan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.class.path" value="/Users/arunkrishnan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.6.0.jar:/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/arunkrishnan/.jenkins/war/WEB-INF/lib/remoting-3.36.1.jar /Users/arunkrishnan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/arunkrishnan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 50081"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.io.tmpdir" value="/var/folders/3k/23txymnd6qn060n3hqrdkdfh0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/arunkrishnan/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/PHPTestJob/3/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/arunkrishnan"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.pgT2sfXSGU/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/arunkrishnan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/arunkrishnan/Applications/API/Java/PHPTravelsTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/PHPTestJob/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/arunkrishnan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="433"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/arunkrishnan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="/Users/arunkrishnan/.jenkins/workspace/PHPTestJob"/>
+    <property name="maven3.interceptor.common" value="/Users/arunkrishnan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="arunkrishnan"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.php.qa.testcases.LoginPageTest" time="0.121"/>
+  <testcase name="PHPLogoImageTest" classname="com.php.qa.testcases.LoginPageTest" time="0.107"/>
+  <testcase name="loginTest" classname="com.php.qa.testcases.LoginPageTest" time="6.317">
+    <failure message="Expected condition failed: waiting for element to no longer be visible: By.xpath: //button[contains(text(),&apos;Login&apos;)] (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Aruns-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:cc0:f0cb:d095:9693%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/3k/23txymnd6qn...}, goog:chromeOptions: {debuggerAddress: localhost:50154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1a266249f0177aa50761450f7a209e99" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to no longer be visible: By.xpath: //button[contains(text(),'Login')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:cc0:f0cb:d095:9693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/3k/23txymnd6qn...}, goog:chromeOptions: {debuggerAddress: localhost:50154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1a266249f0177aa50761450f7a209e99
+	at com.php.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:80)
+</failure>
+    <system-out><![CDATA[04-13-2020 11:18:51 LoginPageTest.java INFO  [main] testcases.LoginPageTest 88 - ****************************** Browser is closed *****************************************
+04-13-2020 11:18:51 LoginPageTest.java INFO  [main] testcases.LoginPageTest 44 - ****************************** Starting test cases execution  *****************************************
+Before navigating to: 'https://www.phptravels.net/login'
+Navigated to:'https://www.phptravels.net/login'
+04-13-2020 11:19:01 LoginPageTest.java INFO  [main] testcases.LoginPageTest 47 - entering application URL
+04-13-2020 11:19:01 LoginPageTest.java WARN  [main] testcases.LoginPageTest 48 - Hey this just a warning message
+04-13-2020 11:19:01 LoginPageTest.java FATAL [main] testcases.LoginPageTest 49 - hey this is just fatal error message
+04-13-2020 11:19:01 LoginPageTest.java DEBUG [main] testcases.LoginPageTest 50 - this is debug message
+I am in onTestStart method loginTest start
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on MAC (1a266249f0177aa50761450f7a209e99)] -> xpath: //button[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on MAC (1a266249f0177aa50761450f7a209e99)] -> xpath: //button[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+Trying to find Element By : By.xpath: //button[contains(text(),'Login')]
+Found Element By : By.xpath: //button[contains(text(),'Login')]
+I am in onTestFailure method loginTest failed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 40852
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 13, 2020 11:18:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586756936.316][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756936.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756936.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756936.796][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756936.898][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.001][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.102][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.204][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.307][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.412][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.514][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.720][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.821][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756937.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.029][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.131][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.233][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.334][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.537][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.639][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756938.950][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.053][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.257][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.466][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.568][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756939.999][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.202][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.304][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.556][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756940.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756941.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756941.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756941.260][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756941.361][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586756941.464][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>
