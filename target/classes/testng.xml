@@ -7,7 +7,6 @@
 		<!--  <listener class-name="com.qa.ExtentReportListener.TestAllureListener" />-->
 	</listeners>
 
-
 	<test name="PHP Online App Test Cases">
 		<classes>
 			<class name="com.php.qa.testcases.LoginPageTest"></class>
