@@ -19,7 +19,7 @@ import com.php.qa.base.TestBase;
 public class TestUtil extends TestBase{
 	
 	public static long PAGE_LOAD_TIMEOUT =  10;
-	public static long IMPLICIT_WAIT = 5;
+	public static long IMPLICIT_WAIT = 10;
 	
 	//public static String TESTDATA_SHEET_PATH = "/Users/arunkrishnan/Applications/API/Java/PHPTravelsTest"
 		//	+ "/src/main/java/com/php/qa/testdata/PHPOnlineTestData.xlsx";

@@ -1,8 +1,10 @@
 package com.php.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.php.qa.base.TestBase;
 
@@ -33,6 +35,8 @@ public class ContactPage extends TestBase {
 		return driver.getTitle();
 	}
 	public void enterContactDetails(String name, String email,String subject, String message ) {
+		wait.until(ExpectedConditions.visibilityOfElementLocated
+				(By.xpath("//span[contains(text(),'Name')])"))).clear();
 		namefield.sendKeys(name);
 		emailfield.sendKeys(email);
 		subjectfield.sendKeys(subject);

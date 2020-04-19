@@ -48,12 +48,19 @@ public class HomePage extends TestBase {
 	}
 	
 	public ContactPage clickContactLink() {
-		Actions actions = new Actions(driver);
-		actions.moveToElement(companyLink);
-		WebElement subMenu = driver.findElement(By.xpath("//div[@id='mobileMenuMain']//a[contains(text(),'Contact')]"));
-		actions.moveToElement(subMenu).click().build().perform();;
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='mobileMenuMain']//a[contains(text(),'Contact')]")));
+		
+		Actions action = new Actions(driver);
+
+
+		action.moveToElement(companyLink).build().perform();
+		driver.findElement(By.xpath("//div[@id='mobileMenuMain']//a[contains(text(),'Contact')]")).click();		// click on "Contact"
+		System.out.println("Clicked on Contact sub-menu");
+
+		//WebElement subMenu = driver.findElement(By.xpath("//div[@id='mobileMenuMain']//a[contains(text(),'Contact')]"));
+		//actions.moveToElement(subMenu).click().build().perform();;
+		//wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='mobileMenuMain']//a[contains(text(),'Contact')]")));
 		//actions.click().build().perform();
+		
 		return new ContactPage();
 		//ul[@style='display: block;']//a[contains(text(),'Contact')]
 
